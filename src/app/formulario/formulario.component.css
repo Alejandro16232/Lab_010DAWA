@@ -1,0 +1,16 @@
+.fondo {
+    background-image: url('https://img.freepik.com/foto-gratis/pintura-lago-montana-montana-al-fondo_188544-9126.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .container, .row {
+    height: 100vh;
+  }
+  
+  .btn:disabled {
+    background-color: gray;
+  }
+  
+  .btn:not(:disabled) {
+    background-color: green;
+  }
